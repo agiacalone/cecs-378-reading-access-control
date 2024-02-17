@@ -13,11 +13,11 @@ Answer the following questions from the Chapter 4 reading from your textbook. Be
 
 5. For the DAC model discussed in your textbook’s Section 4.3, an alternative representation of the protection state is a directed graph. Each subject and each object in the protection state is represented by a node (a single node is used for an entity that is both subject and object). A directed line from a subject to an object indicates an access right, and the label on the link defines the access right.
 	
-	* Draw a directed graph that corresponds to the access matrix of Figure 4.2a.
+	1. Draw a directed graph that corresponds to the access matrix of Figure 4.2a.
 	
-	* Draw a directed graph that corresponds to the access matrix of Figure 4.3.
+	2. Draw a directed graph that corresponds to the access matrix of Figure 4.3.
 	
-	* Is there a one-to-one correspondence between the directed graph representation and the access matrix representation? Explain.
+	3. Is there a one-to-one correspondence between the directed graph representation and the access matrix representation? Explain.
 
 6. UNIX treats file directories in the same fashion as files; that is, both are defined by the same type of data structure, called an inode. As with files, directories include a nine-bit protection string. If care is not taken, this can create access control problems. For example, consider a file with protection mode 644 (octal) contained in a directory with protection mode 730. How might the file be compromised in this case?
 
@@ -27,27 +27,27 @@ Answer the following questions from the Chapter 4 reading from your textbook. Be
 
 9. Assume a system with $N$ job positions. For job position $i$, the number of individual users in that position is $Ui$ and the number of permissions required for the job position is $Pi$.
 	
-	* For a traditional DAC scheme, how many relationships between users and permissions must be defined?
+	1. For a traditional DAC scheme, how many relationships between users and permissions must be defined?
 	
-	* For a RBAC scheme, how many relationships between users and permissions must be defined?
+	2. For a RBAC scheme, how many relationships between users and permissions must be defined?
 
 10. In the example of your textbook’s Section 4.8, use the notation Role($x$).Position to denote the position associated with role $x$ and Role($x$).Function to denote the function associated with role $x$.
 	
-	* We defined the role hierarchy for this example as one in which one role is superior to another if its position is superior and their functions are identical. Express this relationship formally.
+	1. We defined the role hierarchy for this example as one in which one role is superior to another if its position is superior and their functions are identical. Express this relationship formally.
 	
-	* An alternative role hierarchy is one in which a role is superior to another if its function is superior, regardless of position. Express this relationship formally.
+	2. An alternative role hierarchy is one in which a role is superior to another if its function is superior, regardless of position. Express this relationship formally.
 	
-	* The system then verifies that $Pa$ was correctly supplied. How?
+	3. The system then verifies that $Pa$ was correctly supplied. How?
 	
-	* How can an opponent attack this system?
+	4. How can an opponent attack this system?
 
 10. Consider the Bloom filter discussed in Section 3.3 in your textbook (Password-Based Authentication). Define $k =$ number of hash functions; $N =$ number of bits in hash table; and $D =$ number of words in dictionary.
 	
-	* Show that the expected number of bits in the has h table that a r e equal to zero is expressed as $φ = (1 − Nk )D$.
+	1. Show that the expected number of bits in the has h table that a r e equal to zero is expressed as $φ = (1 − Nk )D$.
 	
-	* Show that the probability that an input word, not in the dictionary, will be falsely accepted as being in the dictionary is $P = (1 − φ)k$.
+	2. Show that the probability that an input word, not in the dictionary, will be falsely accepted as being in the dictionary is $P = (1 − φ)k$.
 	
-	* Show that the preceding expression can be approximated as $P ≈ (1 − e−kD/N )k$.
+	3. Show that the preceding expression can be approximated as $P ≈ (1 − e−kD/N )k$.
 
 ### Deliverables
 
